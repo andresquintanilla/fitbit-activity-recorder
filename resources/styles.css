@@ -1,0 +1,28 @@
+.defaultText {
+  text-length: 15;
+  font-size: 40;
+  font-family: Tungsten-Medium;
+  fill: white;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  fill: black;
+}
+
+#mainClock {
+  font-size: 160;
+  text-anchor: middle;
+  x: 50%;  y: 70%;
+}
+
+#clockBattery {x: 5%; y: 15%;}
+#activityType {font-size: 60; x: 5%; y: 95%;}
+#fileCount {x: 5%; y: 55%;}
+
+#play {x: 75%; y: 75%; width:"70"; height:"70"; visibility: 'visible';}
+#send {x: 75%; y: 2%;  width:"70"; height:"70"; visibility: 'hidden';}
+#stop {x: 75%; y: 75%; width:"70"; height:"70"; visibility: 'hidden';}
+#save {x: 75%; y: 40%; width:"70"; height:"70"; visibility: 'hidden';}
+

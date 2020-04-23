@@ -1,0 +1,33 @@
+{
+  "fitbit": {
+    "appUUID": "1cd3ae6a-014c-42b8-aeaa-95e88e26a3d5",
+    "appType": "app",
+    "appDisplayName": "Activity Recorder",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_user_profile",
+      "access_location",
+      "access_internet",
+      "run_background",
+      "access_exercise"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Activity Recorder"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
