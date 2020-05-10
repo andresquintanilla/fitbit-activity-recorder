@@ -15,7 +15,7 @@ Recently, deep learning methods such as recurrent neural networks and convolutio
 
 ## About this Fitbit App
 
-This Fitbit App records accelerometer and gyroscope raw data at 10Hz from the smart device and gives the option to the user wearing the watch to 'label' it. Once the data has been recorded and labled, the user can choose to save and store the data using a web service. 
+This Fitbit App records accelerometer and gyroscope raw data at 10Hz from the smart device and gives the option to the user wearing the watch to 'label' the raw data. Once the data has been recorded and labled, the user can choose to save and store the data using a web service. 
 
 The goal of this app is to start collecting enough data to put together a dataset to build and train a classification algorithm able recognize human activities.
 
